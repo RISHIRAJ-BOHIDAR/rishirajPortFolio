@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #36f149;
+    --off-blue: #0831fc;
+    --light-gray: #bbf7d0;
+}
+body{
+    font-family:"Roboto", sans-serif;
+}
+/* Navigation */ 
+
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--off-blue);
+    padding: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.nav-brand a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline; 
+    padding: 0rem 0.5rem;  
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    margin: 0.6rem 1rem;
+}
+
+.navigation .link{
+    color: var(--off-blue);
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* header */
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.hero .hero-img{
+    max-width: 80%;
+    width: 550px;
+    display: flex;
+    margin: auto;
+}
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    columns: var(--primary-color);
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--off-blue);
+}
+
+/* section */
+.grey{
+    background-color: var(--light-gray);
+}
+
+.section{
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    color: var(--off-blue);
+    margin: 1rem auto;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+    max-width: 140px;
+}
