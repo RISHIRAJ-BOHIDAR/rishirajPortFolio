@@ -18,6 +18,7 @@ body{
 
 .navigation .nav-brand{
     font-weight: bold;
+    display: flex;
 }
 
 .nav-brand a{
